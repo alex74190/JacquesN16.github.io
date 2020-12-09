@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+        *{
+            padding: 0;
+        }
+        body{
+            background-color:#F0D3F7;
+            color:#120D31;
+        }
+        #title{
+            color:#120D31;
+            font-family:cursive;
+            font-weight:bold;
+            font-size:45px;
+        }
+        #listName{
+            display: block;
+            background-color:#B98EA7;
+            color:#302F4D;
+            font-family:"Helvetica", san-serif;
+            font-size: 20px;
+            
+        }
+        #mainNav{
+            margin:0;
+            padding:0;
+            list-style-type: none;
+            
+        }
+        #mainNav li{
+            display: inline;
+            float:left;
+            padding:1px;
+            overflow: auto;
+        }
+        #mainNav li a{
+            text-decoration: none;
+            display: block;
+            padding:8px;
+            background-color:#A57982;
+            color:#120D31;
+            font-weight:bold;
+        }
+        .postName{
+           
+            overflow: auto;
+            display:inline-block;
+            margin:2px;
+            padding:5px;
+            background-color:#FFEE88;
+        }
+        .posts{
+            display:block;
+            
+        }
+        .date{
+            display: block;
+            float:right;
+            font-size: 15px;
+            font-weight:bold;
+        }
+        #mainContent{
+            font-family:"TimesNewRoman",serif;
+            font-style:italic;
+            font-size:20px;
+            line-height:22px;
+        }
+        #return{
+            display:block;
+            background-color: #A57982;
+            color:#161925;
+            font-size:1.5em;
+        }
+        #return a{
+            text-decoration:none;
+        }
+        footer{
+            display:block;
+            background-color:#120D31;
+            color:#B5BA72;
+        }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="title">Jack's blog</h1>
+
+        <h3 id="listName">Contents</h3>
+        <nav id="mainNav">
+        <ul>
+            <li><a href="#firstPost">About me</a></li>
+            <li><a href="#secondPost" >Aliquam leo quam</a></li>
+            <li><a href="#thirdPost">Quisque facilisis</a></li>
+            <li><a href="#fourthPost">Duis sit amet</a></li>
+    
+        </ul>
+        </nav>
+        <div class="posts">
+        <h2 class="postName" id="firstPost">About me</h2>
+        <h6 class="date">Posted on 8th Dec 2020</h6>
+        
+        <p id="mainContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed luctus sem. Vestibulum sem felis, sollicitudin et ex at, ullamcorper suscipit diam. Donec ornare dapibus justo. Ut aliquam, est dictum scelerisque hendrerit, nisl arcu pretium arcu, et pulvinar felis risus volutpat libero. Pellentesque ipsum turpis, semper sed varius id, tincidunt in enim. Maecenas scelerisque luctus risus. Fusce interdum tristique odio, ac blandit quam tempor et. Duis sollicitudin mauris dictum eros rutrum vehicula. Fusce ac nisi ac lacus ultrices viverra quis vel lacus. Nullam euismod ullamcorper ligula at tristique. In semper, lorem eget semper dictum, elit nisi imperdiet libero, mollis interdum leo erat vitae urna. Pellentesque aliquam turpis quis dictum sollicitudin. Proin egestas eget justo et blandit. Mauris fringilla, augue et pellentesque porta, mauris nulla porttitor nibh, id eleifend felis dui ac ligula. </p>
+    </div>    
+      <div class="posts">
+      <h2 class="postName" id="secondPost">Aliquam leo quam</h2>
+        <h6 class="date">Posted on 9th Dec 2020</h6>
+      <p id="mainContent"> Aliquam eget porta nibh, eu faucibus lacus. Sed ornare laoreet neque, at venenatis tellus vulputate non. Integer convallis, metus eu ultricies porttitor, nisi lorem placerat turpis, eu auctor mi lorem at lectus. Aenean cursus ac ipsum nec dictum. Aenean justo erat, viverra sit amet odio nec, efficitur molestie leo. Vivamus posuere euismod dui, eget pharetra neque laoreet viverra. Donec sit amet lorem et ex laoreet porta id in enim. Aenean hendrerit metus gravida est posuere congue. Donec a lorem sed magna eleifend pulvinar sed et magna. Pellentesque dui velit, condimentum vitae vulputate vitae, mattis at nisl. Fusce pellentesque arcu dapibus, scelerisque enim at, vulputate lectus. Nunc rhoncus fringilla nisl. Maecenas erat augue, ullamcorper eu convallis semper, gravida nec ligula.  </p> 
+    </div>  
+      <div class="posts">
+      <h2 class="postName" id="thirdPost">Quisque facilisis</h2>
+        <h6 class="date">Posted on 10th Dec 2020</h6>
+      <p id="mainContent">Quisque facilisis quis metus quis pharetra. Mauris placerat nisl et nunc ornare, eget dapibus ipsum eleifend. Proin viverra pellentesque venenatis. Sed placerat molestie diam, vitae dictum felis dignissim ut. Praesent faucibus dictum enim, non posuere ligula ornare sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam molestie, elit et mattis consequat, elit libero pulvinar diam, sed accumsan mi orci nec massa. Suspendisse iaculis magna eu dui consequat posuere. Suspendisse in nulla sit amet nisi tristique luctus at at nisl. Curabitur et purus pharetra, iaculis nibh sit amet, aliquet diam. Praesent sem justo, dapibus vel vestibulum ut, pulvinar at arcu. Integer tempus sem at rutrum semper. Morbi nec est a nisl consequat fermentum. Cras interdum justo vitae felis suscipit eleifend. Nam mollis laoreet mauris et commodo. Quisque rutrum, diam vel rhoncus ornare, erat lacus sodales enim, vel molestie urna felis sed dui.  </p> 
+     </div> 
+      <div class="posts">
+      <h2 class="postName" id="fourthPost">Duis sit amet</h2>
+        <h6 class="date">Posted on 11th Dec 2020</h6>
+      <p id="mainContent"> Duis sit amet nunc lorem. Fusce non eleifend tellus, vitae molestie libero. Nulla sollicitudin tristique condimentum. Etiam id ornare velit, at tincidunt massa. Vivamus enim elit, commodo eget est at, euismod semper orci. Ut sagittis nisl ac nisi convallis, vitae rhoncus elit scelerisque. Maecenas a magna commodo ligula luctus egestas mattis id ante. Nunc tincidunt malesuada nisl sed dapibus. Etiam congue feugiat mi quis tempor. Aenean et dictum metus. Vivamus enim turpis, sodales eget lorem ac, dictum consequat lectus. Etiam posuere nisi in sapien condimentum mollis. </p> 
+    </div>  
+    
+    <div id="return"><a href="#title">Back to top</a></div>
+    <footer>
+      Author: NJ Copyright: None Publish by: Khan Academy  
+    </footer>
+    </body>
+</html>
