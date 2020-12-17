@@ -1,0 +1,85 @@
+*{
+            padding: 0;
+        }
+        body{
+            background-color:#F0D3F7;
+            color:#120D31;
+        }
+        #title{
+            color:#120D31;
+            font-family:cursive;
+            font-weight:bold;
+            font-size:45px;
+        }
+        #listName{
+            display: block;
+            background-color:#B98EA7;
+            color:#302F4D;
+            font-family:"Helvetica", san-serif;
+            font-size: 20px;
+            
+        }
+        #mainNav{
+            margin:0;
+            padding:0;
+            list-style-type: none;
+            
+        }
+        #mainNav ul{
+            display: block;
+            background-color: rgb(237, 77, 14);
+            height:40px;
+        }
+        #mainNav li{
+            display: inline;
+            float:left;
+            padding:1px;
+            overflow: auto;
+        }
+        #mainNav li a{
+            text-decoration: none;
+            display: block;
+            padding:8px;
+            background-color:#A57982;
+            color:#120D31;
+            font-weight:bold;
+        }
+        .postName{
+           
+            overflow: auto;
+            display:inline-block;
+            margin:2px;
+            padding:5px;
+            background-color:#FFEE88;
+        }
+        .posts{
+            display:block;
+            
+        }
+        .date{
+            display: block;
+            float:right;
+            font-size: 15px;
+            font-weight:bold;
+        }
+        #mainContent{
+            font-family:"TimesNewRoman",serif;
+            font-style:italic;
+            font-size:20px;
+            line-height:22px;
+        }
+        #return{
+            display:block;
+            background-color: #A57982;
+            color:#161925;
+            font-size:1.5em;
+        }
+        #return a{
+            text-decoration:none;
+        }
+        footer{
+            display:block;
+            background-color:#120D31;
+            color:#B5BA72;
+        }
+            
