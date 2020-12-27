@@ -18,12 +18,12 @@
          .helloWorldLetter{
                      background-color:#FFFFFF;
                      color:#000000;
-                     padding:1px;
-                     margin:2px;
+                     padding:2px;
+                     margin:5px;
                      font-family:"Helvetica", san-serif;
                      border: solid 2px;
-                     width:10px;
-                     heigth:20px;
+                     width:20px;
+                     heigth:30px;
             }
         #listName{
             display: block;
