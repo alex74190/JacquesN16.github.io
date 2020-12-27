@@ -11,6 +11,20 @@
             font-weight:bold;
             font-size:45px;
         }
+        
+         .helloWorldContainer{
+                     display:flex;
+            }
+         .helloWorldLetter{
+                     background-color:#FFFFFF;
+                     color:#000000;
+                     padding:1px;
+                     margin:2px;
+                     font-family:"Helvetica", san-serif;
+                     border: solid 2px;
+                     width:10px;
+                     heigth:20px;
+            }
         #listName{
             display: block;
             background-color:#A4A4A4;
